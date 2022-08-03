@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: mongodb://localhost:27017/gpb-demo
+    username: root
+    password: root
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
